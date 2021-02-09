@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Simple Interest </title>
+    <script>
+        function si() {
+            var p = parseInt(document.getElementById("p").value);
+            var i = parseInt(document.getElementById("i").value);
+            var n = parseInt(document.getElementById("n").value);
+            var s = 0;
+            s = (p * n * i) / 100;
+            document.write("simple interest is " +s);
+        }
+    </script>
+
+</head>
+<body>
+    <p><h2> Enter the below values to get simple interest </h2></p>
+    <table>
+        <tr>
+            <td> Principle Amount :</td>
+            <td> <input type="number" id="p" /> </td>
+        </tr>
+        <tr>
+            <td> Rate Interest : </td>
+            <td> <input type="number" id="i" /> </td>
+        </tr>
+        <tr>
+            <td> Number of years : </td>
+            <td> <input type="number" id="n" /> </td>
+        </tr>
+        <tr colspan="2">
+            <td>
+                <button onclick="si();"> Calculate Simple Interest </button>
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+</html>

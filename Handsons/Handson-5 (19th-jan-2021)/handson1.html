@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>JS DOM paragraph style</title>
+</head>
+<body>
+    <p id='text'>JavaScript Exercises -    </p>
+    <div>
+        <button id="jsstyle"
+                onclick="js_style()">
+
+            Style
+        </button>
+        <script>
+            function js_style() {
+                document.getElementById("text").style.color = "red";
+                document.getElementById("text").style.fontStyle = "italic";
+                document.getElementById("text").style.fontSize = "100px";
+            }
+
+        </script>
+    </div>
+</body>
+</html>

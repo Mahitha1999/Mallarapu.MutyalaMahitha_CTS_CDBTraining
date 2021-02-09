@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function vol() {
+            var p = 3.14;
+            var r = parseInt(document.getElementById("t1").value)
+            var v = 0;
+            v = (4 / 3) * p * r * r * r;
+            document.write(v);
+        }
+    </script>
+</head>
+<body>
+    <p> input radius value and get the volume of a sphere </p>
+    Radius <br />
+    <input type="number" id="t1"/><br />
+    Volume <br />
+    <button onclick="vol();"> Calculate </button>
+
+</body>
+</html>
