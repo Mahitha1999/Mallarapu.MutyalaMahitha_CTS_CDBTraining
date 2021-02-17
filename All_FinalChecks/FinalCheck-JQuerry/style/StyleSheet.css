@@ -1,0 +1,141 @@
+﻿body {
+    border: 5px solid deeppink;
+    margin: 20px 20px 20px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    overflow: hidden;
+    background-color: #ee1fea;
+    height: 100px;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        padding-left: 150px;
+        padding-top: 45px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 500px;
+}
+
+p {
+    margin-left: 200px;
+    margin-right: 200px;
+    align-content: center;
+    color: black;
+}
+
+.sty {
+    text-align: center;
+    background-color:none;
+}
+
+div {
+    margin-right: 200px;
+    align-content: center;
+    color: deeppink;
+}
+
+header {
+    background-color: darkblue;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.a {
+    color: white;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+form {
+    align-content: center;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+input[type=submit] {
+    width: 350px;
+    height: 30px;
+    background-color: deeppink;
+    color: white;
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 30px;
+}
+
+input[type=number] {
+    width: 300px;
+    height: 30px;
+}
+
+input[type=email]{
+    width: 350px;
+    height: 30px;
+}
+
+input[type=password] {
+    width: 300px;
+    height: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+footer {
+    background-color: lightpink;
+}
+
+input[type=text] {
+    width: 350px;
+    height: 35px;
+}
+
+input[type=password] {
+    width: 350px;
+    height: 35px;
+}
+
+
+footer {
+    background-color: lightgray;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+span {
+    margin-right: 200px;
+    align-content: center;
+    color: white;
+}
+ol{
+    color:red;
+    margin:100px;
+}

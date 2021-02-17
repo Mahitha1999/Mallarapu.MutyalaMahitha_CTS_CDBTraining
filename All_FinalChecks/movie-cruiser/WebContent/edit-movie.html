@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="js/Script.js"></script>
+    <link href="style/Style.css" rel="stylesheet" />
+</head>
+<body onload="movieedit()">
+    <h1 style="text-align:center"><font color="red"> Movie Cruiser</font>  -To Explore New Movies</h1>
+    <header>
+        <span> Movie Cruiser</span>
+        <span> <img src="images/movie.jfif" class="c2" width="30" height="30" /></span>
+        <span><a href="movie-list-admin.html" class="c1" style="float:right">Movies</a> </span>
+    </header>
+
+    <h1>Edit Movie</h1>
+    <form name="myforms" action="edit-movie-status.html" onsubmit="validateForm();">
+        <table>
+            <tr>
+                <td colspan="4">
+                    <label for="title"> Title </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="title" style="width:520px;" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gross"> Gross($) </label>
+                </td>
+                <td>
+                    <label for="active">  Active </label>
+                </td>
+                <td> <label for="date">  Date of Launch </label></td>
+                <td><label for="genre"> Genre </label> </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="gross" />
+                </td>
+                <td>
+                    yes<input type="radio" checked id="active" name="Active" />
+                    no<input type="radio" id="active" name="Active" />
+                </td>
+                <td>
+                    <input type="text" id="date" />
+                </td>
+                <td>
+                    <select>
+                        <option> Science Fiction</option>
+                        <option> Superhero</option>
+                        <option> Romance</option>
+                        <option> Comedy</option>
+                        <option> Adventure</option>
+                        <option> Thriller</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <input type="checkbox" checked />
+                    <label for="teaser"> Has Teaser </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br />  <input type="submit" id="teaser" value="Save" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    <footer>Copyright © 2019 </footer>
+</body>
+</html>

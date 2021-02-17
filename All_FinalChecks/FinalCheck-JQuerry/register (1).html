@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src=""></script>
+    <style>
+  
+        header {
+            background-color: darkblue;
+            height: 50px;
+            padding-top: 10px;
+        }
+        body{
+            font-family:Calibri;
+        }
+
+        .a {
+            color: white;
+            padding-top: 60px;
+            padding-left: 30px;
+        }
+
+        form {
+            align-content:center;
+            margin-left: 600px;
+            margin-right: 600px;
+        }
+
+        input[type=submit] {
+            width: 310px;
+            height: 30px;
+            background-color: darkblue;
+            color: white;
+        }
+        input[type=text] {
+            width:300px;
+            height:30px;
+        }
+        input[type=number] {
+            width: 300px;
+            height: 30px;
+        }
+        input[type=email] {
+            width: 300px;
+            height: 30px;
+        }
+
+    </style>
+    </style>
+    <script>
+        $(document).ready(function () {
+            array = [];
+            $("#add").click(function () {
+                var n1 = ($("#n1").val());
+                var n2 = ($("#n2").val());
+                var n3 = ($("#n3").val());
+                var n4 = ($("#n4").val());
+                var n5 = ($("#n5").val());
+                var n5 = ($("#n6").val());
+                var n5 = ($("#n7").val());
+                var n5 = ($("#n8").val());
+                var obj = {
+                    "n1": n1,
+                    "n2": n2,
+                    "n3": n3,
+                    "n4": n4,
+                    "n5": n5,
+                    "n4": n6,
+                    "n4": n7,
+                    "n4": n8
+                };
+                array.push(obj);
+                localStorage.setItem('myJavaScriptObject', JSON.stringify(array));
+                alert("Added");
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <header>
+        <a class="a" href="#">Home</a> &nbsp; <a class="a" href="#">Register</a> &nbsp; <a class="a" href="#">Login</a>
+    </header>
+    <h1 style="text-align:center"> <b>Register to explore amazing career opportunities</b></h1>
+    <form name="myforms" onsubmit="validateForm();">
+
+        <label for="n1"> <b> Name</b> </label><br />
+        <input type="text" id="n1" placeholder="Enter Name" />
+        <br />
+        <label for="n2"> <b>User Name</b> </label><br />
+        <input type="text" id="n2" placeholder="Enter User Name" />
+        <br />
+        <label for="n3"> <b>Password</b> </label><br />
+        <input type="text" id="n3" placeholder="Enter Password" />
+        <br />
+        <label for="n4"> <b>Re-Enter Password</b> </label><br />
+        <input type="text" id="n4" placeholder="Re-enter Password" />
+        <br />
+        <label for="n5"><b> Email Address </b></label><br />
+        <input type="email" id="n5" placeholder="Enter Email Address" />
+        <br />
+        <label for="n6"><b> Address </b> </label><br />
+        <input type="text" id="n6" placeholder="Enter Address" /><br />
+        <label for="n7"> <b>Mobile Number </b></label> <br />
+        <input type="number" id="n7" placeholder="Enter Mobile Number" />
+        <br /> 
+        <label for="n8"><b> User Type </b> </label><br />
+        <input type="radio" id="n8" checked /> Customer <input type="radio" id="n8" /> Admin <br /> <br />
+        <input type="submit" id="add" value="Register" />
+
+    </form>
+</body>
+</html>
+
+
+
+

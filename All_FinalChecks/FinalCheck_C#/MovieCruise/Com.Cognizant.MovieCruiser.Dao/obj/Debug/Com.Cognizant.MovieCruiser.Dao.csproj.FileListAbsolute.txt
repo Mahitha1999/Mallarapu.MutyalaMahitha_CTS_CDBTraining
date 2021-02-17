@@ -1,0 +1,9 @@
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Dao\bin\Debug\Com.Cognizant.MovieCruiser.Dao.dll
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Dao\bin\Debug\Com.Cognizant.MovieCruiser.Dao.pdb
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Dao\bin\Debug\Com.Cognizant.MovieCruiser.Model.dll
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Dao\bin\Debug\Com.Cognizant.MovieCruiser.Model.pdb
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Dao\obj\Debug\Com.Cognizant.MovieCruiser.Dao.csprojAssemblyReference.cache
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Dao\obj\Debug\Com.Cognizant.MovieCruiser.Dao.csproj.CoreCompileInputs.cache
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Dao\obj\Debug\Com.Cognizant.MovieCruiser.Dao.csproj.CopyComplete
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Dao\obj\Debug\Com.Cognizant.MovieCruiser.Dao.dll
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Dao\obj\Debug\Com.Cognizant.MovieCruiser.Dao.pdb

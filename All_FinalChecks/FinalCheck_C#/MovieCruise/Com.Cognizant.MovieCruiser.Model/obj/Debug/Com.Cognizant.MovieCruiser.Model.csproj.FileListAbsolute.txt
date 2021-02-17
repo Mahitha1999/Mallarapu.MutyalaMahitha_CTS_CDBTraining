@@ -1,0 +1,6 @@
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Model\bin\Debug\Com.Cognizant.MovieCruiser.Model.dll
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Model\bin\Debug\Com.Cognizant.MovieCruiser.Model.pdb
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Model\obj\Debug\Com.Cognizant.MovieCruiser.Model.csprojAssemblyReference.cache
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Model\obj\Debug\Com.Cognizant.MovieCruiser.Model.csproj.CoreCompileInputs.cache
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Model\obj\Debug\Com.Cognizant.MovieCruiser.Model.dll
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_C#\MovieCruise\Com.Cognizant.MovieCruiser.Model\obj\Debug\Com.Cognizant.MovieCruiser.Model.pdb

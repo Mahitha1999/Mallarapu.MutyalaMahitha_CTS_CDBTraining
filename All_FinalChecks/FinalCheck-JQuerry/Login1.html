@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Login Form</title>
+    <script src="js/JavaScript.js"></script>
+    <link href="style/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body style="font-family: 'Times New Roman'">
+
+    <h1  style="text-align:center" style=" text-align: center; padding: 20px; font-size: 32px"><b><font color="red"> Movie Cruiser </font> -To Explore New Movies</b> </h1>
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About-Us.html">About Us</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="Register.html">Register</a></li>
+    </ul>
+    <div>
+        <a id="admin" href="movie-list-admin.html">movie-admin</a>
+    </div>
+    <div>
+        <a id="customer" href="movie-list-customer.html">movie-customer</a>
+    </div>
+    <h3 style="text-align:center;padding-top:50px;color:red"> <b> Login </b></h3> <br />
+
+
+    <form id="logform" action="">
+
+        <label for="username"> <b>User Name</b> </label>
+        <input type="text" id="username" placeholder="Enter User Name" required />
+        <br /><br />
+        <label for="password"> <b>Password</b> </label>
+        <input type="password" id="password" placeholder="Enter Password" required />
+        <br /> <br />
+        <input type="submit" value="Login" /><br />
+
+        <input type="checkbox" checked /> Remember me <br />
+
+        <div style="background-color:lightgrey;width:350px">
+            &nbsp;  <button type="button" class="btn btn-danger"> Cancel </button> &nbsp; &nbsp; &nbsp;
+            Forget <a href="#">password?</a>
+        </div>
+
+    </form>
+    <footer>
+        Â© 2020 CTS Limited
+    </footer>
+</body>
+</html>
