@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MovieCruiser.Master.cs" Inherits="MovieCruiser.MovieCruiser" %>
+<%@ Register Src="~/MovieCruiserAdminHeader.ascx" TagPrefix="Header" TagName="Header" %>
+<%@ Register Src="~/MovieCruiserFooter.ascx" TagPrefix="Footer" TagName="Footer" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet/StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+   
+<body>
+    <form id="form1" runat="server">
+        <header:header id="Header" runat="Server"></header:header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    <br />
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer:footer id="Footer" runat="Server"></footer:footer>
+</body>
+</html>

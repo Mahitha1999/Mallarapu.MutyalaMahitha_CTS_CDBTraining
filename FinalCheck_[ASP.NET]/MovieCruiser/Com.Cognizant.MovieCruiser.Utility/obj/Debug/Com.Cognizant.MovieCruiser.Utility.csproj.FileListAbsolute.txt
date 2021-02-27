@@ -1,0 +1,6 @@
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_[ASP.NET]\MovieCruiser\Com.Cognizant.MovieCruiser.Utility\bin\Debug\Com.Cognizant.MovieCruiser.Utility.dll
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_[ASP.NET]\MovieCruiser\Com.Cognizant.MovieCruiser.Utility\bin\Debug\Com.Cognizant.MovieCruiser.Utility.pdb
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_[ASP.NET]\MovieCruiser\Com.Cognizant.MovieCruiser.Utility\obj\Debug\Com.Cognizant.MovieCruiser.Utility.csprojAssemblyReference.cache
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_[ASP.NET]\MovieCruiser\Com.Cognizant.MovieCruiser.Utility\obj\Debug\Com.Cognizant.MovieCruiser.Utility.csproj.CoreCompileInputs.cache
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_[ASP.NET]\MovieCruiser\Com.Cognizant.MovieCruiser.Utility\obj\Debug\Com.Cognizant.MovieCruiser.Utility.dll
+C:\Users\MAHITHA\Desktop\Finalchecks\FinalCheck_[ASP.NET]\MovieCruiser\Com.Cognizant.MovieCruiser.Utility\obj\Debug\Com.Cognizant.MovieCruiser.Utility.pdb
